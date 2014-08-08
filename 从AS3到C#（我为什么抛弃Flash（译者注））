@@ -1,0 +1,2464 @@
+<div id="wp" class="wp"><style type="text/css">
+.po p a{margin-right:7px; float:right;}
+.pgs #newspecial, .pgs #newspecialtmp, .pgs #post_reply, .pgs #post_replytmp{ margin-right:10px;}
+.pcb{ margin-right:0px;}
+.pls{border-right:1px solid #CCC;}
+.pls em img{ vertical-align:middle;}
+.ad .pls{ background:#CCC; height:1px;}
+.ad .plc{ background:#CCC; height:1px;}
+.xg1, .xg1 a{ color:#333 !important;}
+.quote{ border:1px dashed #CCC; font-size:12px;}
+.pl .quote{ background:none; background-color:#F8F8F8;}
+.pl .quote, .pl .blockcode{ padding:15px;}
+.pl .quote blockquote{background:none;}
+
+#ct .bbs{ border:0px !important;}
+#ct .pbm{ padding-bottom:0px !important;}
+.psti .xw1{ font-weight:normal;}
+
+.mtw{ margin-top:0px !important;}
+.mbw{ margin-bottom:10px !important;}
+
+.rate{ margin-bottom:0px;}
+
+.modact, .modact a{ line-height:normal !important; color:#666;}
+
+#recommend_add{ float:left; display:block; text-align:center; width:75px; height:60px; background:url('/x2img/riading.jpg') no-repeat; margin-right:20px;}
+#recommend_subtract{ float:left; display:block; text-align:center; width:75px; height:60px; background:url('/x2img/riacai.jpg') no-repeat;}
+#recommendv_add{ position:relative; top:37px; color:#E66402; font-size:14px; font-weight:bold;}
+#recommendv_subtract{ position:relative; top:37px; color:#1384EC; font-size:14px; font-weight:bold;}
+
+#k_share{background: url("/x2img/riaoshr.png") no-repeat scroll 4px 50% transparent;}
+#k_favorite{background: url("/x2img/riafav.gif") no-repeat scroll 4px 50% transparent;}
+.k_rate{background: url("/x2img/riarate.gif") no-repeat scroll 4px 50% transparent;}
+#sharenumber{ color:#910100; font-weight:bold;}
+#favoritenumber{ color:#910100; font-weight:bold;}
+
+i.pstatus{ display:none;}
+.pnpost .pn{ background:url('/x2img/riapostbtn.gif') no-repeat; width:77px; height:33px; border:0px;}
+
+.imicn{ border-top:1px dashed #CCC; padding-top:8px; width:280px;}
+.imicn a{ padding-right:15px;}
+.imicn img{ margin-right:5px;}
+
+h1.ts{ font-family:"宋体","SimSun","Arial Narrow"; font-size:16px;}
+h1.ts img{ vertical-align:middle;}
+.a_pt, .a_pb{ background:none; padding:0px;}
+.norightborder{ border-right:0px;}
+.bgcolorgray{ background-color:#EDEDED;}
+</style>
+
+
+<script type="text/javascript">var fid = parseInt('43'), tid = parseInt('403800');</script>
+
+<script src="static/js/forum_viewthread.js?M6u" type="text/javascript"></script>
+<script type="text/javascript">zoomstatus = parseInt(1);var imagemaxwidth = '600';var aimgcount = new Array();</script>
+
+<style id="diy_style" type="text/css"></style>
+<!--[diy=diynavtop]--><div id="diynavtop" class="area"></div><!--[/diy]-->
+<div id="pt" class="bm cl">
+<div class="z">
+<a href="./" class="nvhm" title="首页">游戏开发者社区</a> <em>&gt;</em> <a href="forum.php">论坛</a> <em>&gt;</em> <a href="forum.php?gid=3">综合交流</a> <em>&gt;</em> <a href="forum.php?mod=forumdisplay&amp;fid=43&amp;page=1">新闻资讯</a> <em>&gt;</em> <a href="thread-403800-1-1.html">从AS3到C#（我为什么抛弃Flash（译者注）） ...</a>
+</div>
+    <div class="riauserlink">
+<a href="./home.php?mod=space&amp;do=thread&amp;view=me"><img src="/x2img/userlink1.png" width="11" height="11"> 我的帖子</a>&nbsp;&nbsp;
+        <a href="./space-uid-31911.html"><img src="/x2img/userlink2.png" width="11" height="11"> 个人中心</a>&nbsp;&nbsp;
+        <a href="./home.php?mod=spacecp"><img src="/x2img/userlink3.png" width="11" height="11"> 设置</a>&nbsp;&nbsp;
+</div>
+    </div>
+
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="wp cl">
+<div id="pgt" class="pgs mbm cl ">
+<div class="pgt"><div class="pg"><strong>1</strong><a href="thread-403800-2-1.html">2</a><a href="thread-403800-3-1.html">3</a><a href="thread-403800-2-1.html" class="nxt">下一页</a></div></div>
+<span class="y pgb" id="visitedforums" onmouseover="$('visitedforums').id = 'visitedforumstmp';this.id = 'visitedforums';showMenu({'ctrlid':this.id,'pos':'34'})"><a href="forum.php?mod=forumdisplay&amp;fid=43&amp;page=1">返回列表</a></span>
+<a id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu({'ctrlid':this.id})" onclick="location.href='forum.php?mod=post&amp;action=newthread&amp;fid=43';return false;" href="javascript:;" title="发新帖"><img src="static/image/common/pn_post.png" alt="发新帖"></a>
+<a id="post_reply" onclick="showWindow('reply', 'forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800')" href="javascript:;" title="回复"><img src="static/image/common/pn_reply.png" alt="回复"></a>
+
+</div>
+
+<ul class="p_pop" id="newspecial_menu" style="display: none">
+<li><a href="forum.php?mod=post&amp;action=newthread&amp;fid=43">发表帖子</a></li><li class="poll"><a href="forum.php?mod=post&amp;action=newthread&amp;fid=43&amp;special=1">发起投票</a></li></ul>
+
+
+<script>
+function adminbtnclick(id) {
+var areaobj = (id == 1)? document.getElementById('riaadminareab') : document.getElementById('riaadminarea');
+areaobj.style.display = areaobj.style.display == 'none'? '' : 'none';
+}
+</script>
+
+<div id="postlist" class="pl bm">
+<table cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="plc ptm pbn bgcolorgray">
+<h1 class="ts">
+<img src="/x2img/thread_fy.gif" width="22" height="22"> <a href="forum.php?mod=forumdisplay&amp;fid=43&amp;filter=typeid&amp;typeid=474">[译林军]</a>
+<a href="forum.php?mod=forumdisplay&amp;fid=43&amp;filter=sortid&amp;sortid=74">[新闻资讯]</a>
+<a href="thread-403800-1-1.html" id="thread_subject">从AS3到C#（我为什么抛弃Flash（译者注））</a>
+<span class="xw0 xs1 xg1">
+</span>
+</h1>
+</td>
+<td class="pls pbm norightborder">
+<div class="hm" style="padding-top:8px;">
+<span class="xg1">查看:</span> <span class="xi1"><strong>1491</strong></span><span class="pipe">|</span><span class="xg1">回复:</span> <span class="xi1"><strong>39</strong></span>
+</div>
+</td>
+</tr>
+</tbody></table>
+
+
+<table cellspacing="0" cellpadding="0" class="ad"><tbody><tr><td class="pls"></td><td class="plc"></td></tr></tbody></table><div id="post_2283104"><table id="pid2283104" summary="pid2283104" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283104" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283104_ma"></div>
+                    <p align="center">UID：31911</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-31911.html" target="_blank" class="xi2">hellogavin</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>178 小时</dd><dt>银子</dt><dd>487 两</dd><dt>注册时间</dt><dd>2009-4-17</dd><dt>积分</dt><dd>6231</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">10</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">100</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">6</a></dd><dt>精华</dt><dd>2</dd><dt>金子</dt><dd>91 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=31911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-31911.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=31911&amp;handlekey=addfriendhk_31911" id="a_friend_li_2283104" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283104')"><a href="space-uid-31911.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/03/19/11_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-31911.html" target="_blank" class="xw1" style="color:#F60;">hellogavin</a>
+
+</span>&nbsp;<a href="home.php?mod=spacecp&amp;ac=usergroup&amp;gid=17" target="_blank"><img src="/x2img/riaadmin4.jpg" height="18"></a></em></p>
+</div>
+<p id="g_up2283104" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"></p>
+
+            <div id="g_up2283104_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：中级教头, 积分 <span style="color:#F00;">6231</span> , 距离下一级还需 1769 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>33 点</dd><dt>义气</dt><dd>5 点</dd></dl><p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=31911" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=hellogavin" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=viewthread&amp;tid=403800&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283104" onclick="setCopy(this.href, '帖子地址复制成功');return false;">楼主</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283104" src="static/image/common/online_member.gif">
+<em id="authorposton2283104">发表于 2014-7-28 21:53:49</em>
+                    	<span class="pipe">|</span><a href="forum.php?mod=viewthread&amp;tid=403800&amp;page=1&amp;authorid=31911" rel="nofollow">只看该作者</a>
+                        <span class="pipe">|</span>
+<a id="replynotice" href="forum.php?mod=misc&amp;action=replynotice&amp;op=ignore&amp;tid=403800" status="1" onclick="ajaxmenu(this, 3000, 0, 0, '43', function () {replyNotice();});return false;">取消回复通知</a>
+<div style="float:right;position:relative;top:-6px;"><!-- Baidu Button BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+    </div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6423384" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=390967"></script>
+
+<script type="text/javascript">
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->  </div></div>
+</div>
+</div><div class="pct"><div class="pcb">
+        	<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283104">
+
+今天JacksonDunstan.com和本周的电子邮件列表将迎来一个巨大的改变，在写了5年AS3、Flash和AIR以及相关的317篇文章后，我将要开始写C#和Unity3D，今天我发布两篇文章，第一篇是为什么我从Flash切换到Unity，第二篇是“从AS3到C#”的系列过渡文章的开始，以下是第一篇。<br>
+我的第一个改变的原因是FLash和Unity的流行人气，对比一下从2009开始ActionScript和Unity3D的Google的趋势图：<br>
+
+<ignore_js_op>
+
+<img id="aimg_263527" src="forum.php?mod=attachment&amp;aid=MjYzNTI3fDNhZDY0MWVifDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes" zoomfile="forum.php?mod=attachment&amp;aid=MjYzNTI3fDNhZDY0MWVifDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes&amp;nothumb=yes" file="forum.php?mod=attachment&amp;aid=MjYzNTI3fDNhZDY0MWVifDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes" class="zoom" onclick="zoom(this, this.src)" width="500" inpost="1" alt="ASvsUnity3D.png" title="ASvsUnity3D.png" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" initialized="true">
+
+<div class="tip tip_4 aimg_tip" id="aimg_263527_menu" style="position: absolute; z-index: 301; left: 371.5px; top: 359px; display: none;" initialized="true">
+<div class="tip_c xs0">
+<div class="y">2014-7-28 21:49:57 上传</div>
+<a href="forum.php?mod=attachment&amp;aid=MjYzNTI3fDNhZDY0MWVifDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;nothumb=yes" title="ASvsUnity3D.png 下载次数:0" target="_blank"><strong>下载附件</strong> <span class="xs0">(20.75 KB)</span></a>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+</ignore_js_op>
+<br>
+开始Flash的流行程度是Unity的30倍，但是现在Unity是Flash的3倍，换句话说Flash已经下跌了92%，这还有另一张表显示Flash的就业市场正在死亡：<br>
+
+<ignore_js_op>
+
+<img id="aimg_263528" src="forum.php?mod=attachment&amp;aid=MjYzNTI4fDliNWYyZmMwfDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes" zoomfile="forum.php?mod=attachment&amp;aid=MjYzNTI4fDliNWYyZmMwfDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes&amp;nothumb=yes" file="forum.php?mod=attachment&amp;aid=MjYzNTI4fDliNWYyZmMwfDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes" class="zoom" onclick="zoom(this, this.src)" width="540" inpost="1" alt="ASJobs.png" title="ASJobs.png" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" initialized="true">
+
+<div class="tip tip_4 aimg_tip" id="aimg_263528_menu" style="position: absolute; z-index: 301; left: 371.5px; top: 636px; display: none;" initialized="true">
+<div class="tip_c xs0">
+<div class="y">2014-7-28 21:50:59 上传</div>
+<a href="forum.php?mod=attachment&amp;aid=MjYzNTI4fDliNWYyZmMwfDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;nothumb=yes" title="ASJobs.png 下载次数:0" target="_blank"><strong>下载附件</strong> <span class="xs0">(34.55 KB)</span></a>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+</ignore_js_op>
+<br>
+这个图表没有提供确切的数字，但是目测它看起来从差不多0.24 降到了差不多0.02，这个下降符合了Google的趋势数字：92%。<br>
+<br>
+考虑到Flash浏览器插件在两个重要的移动平台都是不可用的，而且整个转变严重远离桌面和移动，Flash都做了，但是却正在从网络中消失，趋势还有很多的Flash应用程序存在，但是新开发的几乎没有，实际上新的发展通常是面向用HTML5取代现有的Flash应用程序，这种形势在浏览器上很严峻。<br>
+<br>
+有人会说，AIR提供了很好的跨平台移动解决方案，而且做出了一些很好的游戏和应用程序，但是看看Google的趋势图，很明显Unity现在是更好的选择。<br>
+<br>
+到目前我已经讨论了流行程度和行业发展方向，还没有涉及两个平台的技术范畴，Flash已经在过去的几年中减少了投资，Adobe很难告诉外界，但是只是由更小的开发团队发出最小的更新从而让Flash还是活着的，这对于一个技术来说并不是光明的未来，很清楚的感觉到如果继续用 Flash Pro 和 Flash Builder 开发在Flash Player运行的程序，那么越来越多的用户和开发者想要得到的特性是得不到的。<br>
+<br>
+现在让我们来对比下两个技术，一些以前的Flash开发者已经开始蜂拥而入到HTML5和Unity3D，HTML5从2010年开始爆炸式的流行起来了，疯狂是用HTML5取代一切曾经Flash使用的地方，工具、类库和社区如雨后春笋般涌现，未来很明显会越来越多的采用承诺使各个平台更好体验的HTML5，总而言之，就是以前用Flash的地方将不再有Flash了。<br>
+<br>
+另一方面Unity已经成为了移动开发游戏引擎的No.1，他有一个小的但是正在发展的特性--出现在控制台和web浏览器，它很便宜或者免费使用，有一个很大而且还在发展的社区，一个有很多功能和工具的活力套件，他是建立在一门比Unity更广泛被人接受的语言（C#）之上的，它很正式规范而且文档非常好。它从Unity和通过Unity Asset Store的第三方吸收了很多。同样它本身的特性集也在快速增长。<br>
+<br>
+作为一个游戏开发者，我的道路很明显，Flash还没有死还是受欢迎的，但是实际上已经死了。取而代之的游戏开发技术就是Unity3D，是的HTML5也可以被用于游戏开发，但是从Google趋势图看还是不如Unity流行。<br>
+
+<ignore_js_op>
+
+<img id="aimg_263529" src="forum.php?mod=attachment&amp;aid=MjYzNTI5fDJjZjJmMmM2fDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes" zoomfile="forum.php?mod=attachment&amp;aid=MjYzNTI5fDJjZjJmMmM2fDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes&amp;nothumb=yes" file="forum.php?mod=attachment&amp;aid=MjYzNTI5fDJjZjJmMmM2fDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;noupdate=yes" class="zoom" onclick="zoom(this, this.src)" width="500" inpost="1" alt="HTML5GameVsUnityGoogleTrends2.png" title="HTML5GameVsUnityGoogleTrends2.png" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" initialized="true">
+
+<div class="tip tip_4 aimg_tip" id="aimg_263529_menu" style="position: absolute; z-index: 301; left: 371.5px; top: 1487px; display: none;" initialized="true">
+<div class="tip_c xs0">
+<div class="y">2014-7-28 21:52:36 上传</div>
+<a href="forum.php?mod=attachment&amp;aid=MjYzNTI5fDJjZjJmMmM2fDE0MDc0NzkyNzl8MzE5MTF8NDAzODAw&amp;nothumb=yes" title="HTML5GameVsUnityGoogleTrends2.png 下载次数:0" target="_blank"><strong>下载附件</strong> <span class="xs0">(15.52 KB)</span></a>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+</ignore_js_op>
+<br>
+这让我想到了这个网站的计划，我将涵盖各种各样Unity的主题就像这过去5年所有Flash，你曾经看到的AS3的文章也会有C#的，你也许也会看到一些Unity支持的.NET语言的文章像UnityScript 和Boo，所有的这些从今天第一篇文章开始，我很确定将会有一个很长系列的关于从Flash到Unity，所以爽快一点，一起来来阅读 -- <a href="http://bbs.9ria.com/thread-403799-1-1.html" target="_blank">从Flash到C#，第一章：类的基础知识</a><br>
+<br>
+<br>
+                <p style="padding:15px 0px;">原文链接：<a href="http://jacksondunstan.com/articles/2632" target="_blank">http://jacksondunstan.com/articles/2632</a></p>                <p style="padding:15px 0px;">翻译词数：791</p>                </td></tr></tbody></table>
+</div>
+<div id="comment_2283104" class="cm">
+</div>
+
+    
+    	<div class="riarecommend">
+<a id="recommend_add" href="forum.php?mod=misc&amp;action=recommend&amp;do=add&amp;tid=403800" onclick="ajaxmenu(this, 3000, 1, 0, '43', 'riarecommendupdate(2)');return false;" onmouseover="this.title = $('recommendv_add').innerHTML + ' 人顶'"><span id="recommendv_add">0</span></a>
+<a id="recommend_subtract" href="forum.php?mod=misc&amp;action=recommend&amp;do=subtract&amp;tid=403800" onclick="ajaxmenu(this, 3000, 1, 0, '43', 'riarecommendupdate(-2)');return false;" onmouseover="this.title = $('recommendv_subtract').innerHTML + ' 人踩'"><span id="recommendv_subtract">0</span></a>
+        </div>
+
+<script>
+function riarecommendupdate(n) {
+if(getcookie('recommend')) {
+var objv = n > 0 ? $('recommendv_add') : $('recommendv_subtract');
+objv.innerHTML = parseInt(objv.innerHTML) + Math.abs(n);
+setTimeout(function () {
+$('recommentc').innerHTML = parseInt($('recommentc').innerHTML) + n;
+$('recommentv').style.display = 'none';
+}, 1000);
+setcookie('recommend', '');
+}
+}
+</script>        
+        
+<div style="clear:both"></div>
+
+<dl id="ratelog_2283104" class="rate">
+<dd style="margin:0">
+<div id="post_rate_2283104"></div>
+
+<script>
+function riatoggleRatelogCollapse(tarId, ctrlObj) {
+if(document.getElementById(tarId).style.display == '') {
+document.getElementById(tarId).style.display = 'none';
+document.getElementById(tarId+'_table').style.display = 'none';
+document.getElementById(tarId+'_collapse').style.width = 'auto';
+document.getElementById(tarId+'_collapse').style.background = 'none';
+document.getElementById(tarId+'_btn').style.background = 'none';
+setcookie('ratecollapse', 1, 2592000);
+ctrlObj.innerHTML = '展开';
+document.getElementById(tarId+'_num').style.display = 'none';
+} else {
+document.getElementById(tarId).style.display = '';
+document.getElementById(tarId+'_table').style.display = '';
+document.getElementById(tarId+'_collapse').style.width = '85px';
+document.getElementById(tarId+'_collapse').style.background = 'url(/x2img/ratecollapse.png) no-repeat';
+document.getElementById(tarId+'_btn').style.background = 'url("../../static/image/common/arrow_top.gif") no-repeat scroll 100% 50% transparent';
+setcookie('ratecollapse', 0, -2592000);
+ctrlObj.innerHTML = '收起';
+riaratemore(tarId, 1);
+}
+}
+function riaratemore(tarId, type) {
+var tagtr = document.getElementById(tarId+'_table').getElementsByTagName('tr');
+var tagtrlen = tagtr.length;
+for (var i=0; i<tagtrlen; i++) {
+if (type==0 && i>4) {
+tagtr[i].style.display = 'none';
+} else {
+tagtr[i].style.display = '';
+}
+}
+if (document.getElementById(tarId+'_btn').innerHTML == '展开') {
+document.getElementById(tarId+'_num').style.display = 'none';
+document.getElementById(tarId+'_collapse').style.width = 'auto';
+document.getElementById(tarId+'_collapse').style.background = 'none';
+document.getElementById(tarId+'_btn').style.background = 'none';
+}
+if (type==1) {
+document.getElementById(tarId+'_num').style.display = 'none';
+}
+}
+</script>
+
+<div class="riaratehead">
+<div class="riaratecollapse" id="riaratelog_2283104_collapse"><a href="javascript:;" onclick="riatoggleRatelogCollapse('riaratelog_2283104', this);" class="y xi2 op" id="riaratelog_2283104_btn">收起</a></div>
+<div class="riaratetitle">本帖评分记录：<a href="forum.php?mod=misc&amp;action=viewratings&amp;tid=403800&amp;pid=2283104" onclick="showWindow('viewratings', this.href)" title="查看全部评分">共<span class="xi1">1</span>人评分</a>&nbsp;&nbsp;&nbsp;            金子<span class="xi1">+4</span>&nbsp;
+        </div>
+<div class="riaratetitle2"></div>
+</div>
+<div style="clear:both;"></div>
+
+<div class="riaratelist" id="riaratelog_2283104" style="">
+                    <table class="ratl" id="riaratelog_2283104_table">
+                                                <tbody><tr id="rate_2283104_316619">
+                            <td width="150">
+                                <a href="space-uid-316619.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/31/66/19_avatar_small.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a> <a href="space-uid-316619.html" target="_blank">★AI★</a>
+                            </td>
+                                                        	                                                                    <td class="xi1" width="100">金子 + 4</td>
+                                                                                                                        <td class="xg1">又忘记了吧，词数</td>
+                        </tr>
+                        </tbody></table>
+                    <table class="riaratebottom">
+                    	<tbody><tr><td><span id="riaratelog_2283104_num"></span></td><td><div class="riaratebtn"><a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283104', 'get', -1);return false;" title="1 人评分"><img src="/x2img/riaratebtn.png" alt="评分" width="95" height="25"></a></div></td></tr>
+                	</tbody></table>
+                </div>
+<script>riaratemore('riaratelog_2283104', 0);</script>
+                
+</dd>
+</dl>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+<!--cnzz tui-->
+<script src="http://tui.cnzz.net/cs.php?id=1000059987" type="text/javascript"></script><div id="aliyun_cnzz_tui_1000059987" style="display:block;float:none;border:0 none;margin:0;padding:0;visibility:visible;overflow:visible;*zoom:1;position:relative;z-index:1;"></div>
+<!--cnzz tui-->
+<div id="p_btn" class="mtw mbm cl" style="display:none;">
+<div class="tshare cl">
+<strong>分享到:</strong>
+
+
+<a href="javascript:void(0);" id="k_qqshare" onclick="postToQzone();" title="QQ空间"><i><img src="static/image/common/qzone.gif" alt="QQ空间">QQ空间</i></a>
+<a href="javascript:void(0)" onclick="postToWb();" id="k_weiboshare" title="腾讯微博"><i><img src="static/image/common/weibo.png" alt="腾讯微博">腾讯微博</i></a>
+<a href="javascript:void(0);" onclick="postToPengyou();" id="k_pengyoushare" title="腾讯朋友"><i><img src="static/image/common/pengyou.png" alt="腾讯朋友">腾讯朋友</i></a>
+<script type="text/javascript">
+function postToWb(){
+var _t = encodeURI(document.title);
+var _url = encodeURIComponent(document.location);
+var _appkey = encodeURI("ce7fb946290e4109bdc9175108b6db3a");
+var _pic = "http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263529%26size%3D400x400%26key%3D2de1ade69787b9a2bc856b684242f0c9%26type%3Dfixnone%26nocache%3D1|http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263528%26size%3D400x400%26key%3D4ea53e18f6a2dda22f8c40fd9e8565dd%26type%3Dfixnone%26nocache%3D1|http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263527%26size%3D400x400%26key%3De27e8c7a7a05421fbfede82c79e22d4a%26type%3Dfixnone%26nocache%3D1";
+var _site = encodeURIComponent("游戏开发者社区");
+var _from = 'discuz';
+var _u = 'http://v.t.qq.com/share/share.php?url='+_url+'&appkey='+_appkey+'&site='+_site+'&pic='+_pic+'&title='+_t+'&from='+_from;
+window.open( _u,'', 'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no' );
+}
+function postToQzone(){
+var _url = encodeURIComponent(document.location.href);
+var _site = encodeURIComponent("游戏开发者社区");
+var _title = encodeURIComponent("从AS3到C#（我为什么抛弃Flash（译者注））");
+var _pics = "http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263529%26size%3D400x400%26key%3D2de1ade69787b9a2bc856b684242f0c9%26type%3Dfixnone%26nocache%3D1|http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263528%26size%3D400x400%26key%3D4ea53e18f6a2dda22f8c40fd9e8565dd%26type%3Dfixnone%26nocache%3D1|http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263527%26size%3D400x400%26key%3De27e8c7a7a05421fbfede82c79e22d4a%26type%3Dfixnone%26nocache%3D1";
+var _from = 'discuz';
+var _u = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+_url+'&site='+_site+'&title='+_title+'&pics='+_pics+'&from='+_from;
+window.open(_u);
+}
+function postToPengyou(){
+var _url = encodeURIComponent(document.location.href);
+var _site = encodeURIComponent("游戏开发者社区");
+var _title = encodeURIComponent("从AS3到C#（我为什么抛弃Flash（译者注））");
+var _pics = "http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263529%26size%3D400x400%26key%3D2de1ade69787b9a2bc856b684242f0c9%26type%3Dfixnone%26nocache%3D1|http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263528%26size%3D400x400%26key%3D4ea53e18f6a2dda22f8c40fd9e8565dd%26type%3Dfixnone%26nocache%3D1|http%3A%2F%2Fbbs.9ria.com%2Fforum.php%3Fmod%3Dimage%26aid%3D263527%26size%3D400x400%26key%3De27e8c7a7a05421fbfede82c79e22d4a%26type%3Dfixnone%26nocache%3D1";
+var _from = 'discuz';
+var _u = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?to=pengyou&url='+_url+'&site='+_site+'&title='+_title+'&pics='+_pics+'&from='+_from;
+window.open(_u);
+}
+</script>
+
+</div>
+<a href="misc.php?mod=invite&amp;action=thread&amp;id=403800" onclick="showWindow('invite', this.href, 'get', 0);"><i><img src="static/image/common/activitysmall.gif" alt="邀请">邀请</i></a>
+</div>
+        
+        <div class="a_pb"><a href="http://www.9ria.com/redirect.php?id=173" target="_blank"><img src="http://www.9ria.com/uploads/allimg/140804/36985-140P41215020-L.jpg" border="0"></a></div>        
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;reppost=2283104&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+<a class="editp" href="forum.php?mod=post&amp;action=edit&amp;fid=43&amp;tid=403800&amp;pid=2283104&amp;page=1">编辑</a>                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="home.php?mod=spacecp&amp;ac=share&amp;type=thread&amp;id=403800" id="k_share" onclick="showWindow(this.id, this.href, 'get', 0);" onmouseover="this.title = $('sharenumber').innerHTML + ' 人分享'">分享(<span id="sharenumber">0</span>)</a>
+<a href="home.php?mod=spacecp&amp;ac=favorite&amp;type=thread&amp;id=403800" id="k_favorite" onclick="showWindow(this.id, this.href, 'get', 0);" onmouseover="this.title = $('favoritenumber').innerHTML + ' 人收藏'" title="0 人收藏">收藏(<span id="favoritenumber">0</span>)</a>
+                    <a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283104', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+</p>
+
+<ul id="mgc_post_2283104_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=highlight&amp;idtype=tid&amp;id=403800" id="a_stick" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/highlight.small.gif">变色卡</a></li>
+<li><a href="home.php?mod=magic&amp;mid=repent&amp;idtype=pid&amp;id=2283104:403800" id="a_repent_2283104" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/bump.small.gif">悔悟卡</a></li>
+<li><a href="home.php?mod=magic&amp;mid=anonymouspost&amp;idtype=pid&amp;id=2283104:403800" id="a_anonymouspost_2283104" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/anonymouspost.small.gif">匿名卡</a></li><li>
+</li><li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283104:403800" id="a_namepost_2283104" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283104')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr><td colspan="2" class="riatdad"></td></tr><tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+<script type="text/javascript" reload="1">
+aimgcount[2283104] = ['263529','263528','263527'];
+attachimggroup(2283104);
+attachimgshow(2283104);
+</script>
+</div><div id="post_2283156"><table id="pid2283156" summary="pid2283156" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283156" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283156_ma"></div>
+                    <p align="center">UID：391722</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-391722.html" target="_blank" class="xi2">Finance</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>208 小时</dd><dt>银子</dt><dd>468 两</dd><dt>注册时间</dt><dd>2014-2-9</dd><dt>积分</dt><dd>9300</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=391722&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">76</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=391722&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">445</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=391722&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>62 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=391722&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-391722.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=391722&amp;handlekey=addfriendhk_391722" id="a_friend_li_2283156" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283156')"><a href="space-uid-391722.html" target="_blank"><img src="http://uc.9ria.com/images/noavatar_middle.gif" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-391722.html" target="_blank" class="xw1">Finance</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283156" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 8"><img src="static/image/common/star_level2.gif" alt="Rank: 8"></p>
+
+            <div id="g_up2283156_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：高级教头, 积分 <span style="color:#F00;">9300</span> , 距离下一级还需 700 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>5 点</dd><dt>义气</dt><dd>35 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=391722" id="a_poke_li_2283156" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_391722&amp;touid=391722&amp;pmid=0&amp;daterange=2&amp;pid=2283156&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=391722" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=Finance" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283156&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283156" onclick="setCopy(this.href, '帖子地址复制成功');return false;">沙发</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283156" src="static/image/common/online_member.gif">
+<em id="authorposton2283156">发表于 2014-7-28 23:28:12</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283156">
+ActionScript 3发布于2006年，到2010年它被宣布死亡（这是在它4年诞生之后），4年后，不断有人说，已经死了。这意味着AS3有一半的生活是死的。<br>
+可笑吧？ <br>
+全文<a href="http://alesys.net/site/2014/07/23/putting-things-in-perspective/" target="_blank">http://alesys.net/site/2014/07/23/putting-things-in-perspective/</a><br>
+<br>
+在看下面数据<br>
+2014年4月 Adob​​e宣布 AIR超过十亿的安装<br>
+2014年5月 as3 在TIOBE网站是焦点话题<br>
+2014年6月 as3 在TIOBE排名在创高峰<br>
+<br>
+最近的Flash表现有目共睹, 那些诅咒Flash要死的无疑又要多等好几年<br>
+<br>
+</td></tr></tbody></table>
+</div>
+<div id="comment_2283156" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283156"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+        <div class="a_pb"><a href="http://www.9ria.com/redirect.php?id=165" target="_blank"><img src="http://www.9ria.com/uploads/allimg/140731/36985-140I11GP10-L.jpg" border="0"></a></div>        
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283156&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283156&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283156', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283156', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283156&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283156_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283156:403800" id="a_namepost_2283156" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283156')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283174"><table id="pid2283174" summary="pid2283174" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283174" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283174_ma"></div>
+                    <p align="center">UID：72368</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-72368.html" target="_blank" class="xi2">winthropchang</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-7</dd><dt>在线时间</dt><dd>44 小时</dd><dt>银子</dt><dd>220 两</dd><dt>注册时间</dt><dd>2010-4-25</dd><dt>积分</dt><dd>2680</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=72368&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=72368&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">30</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=72368&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>24 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=72368&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-72368.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=72368&amp;handlekey=addfriendhk_72368" id="a_friend_li_2283174" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283174')"><a href="space-uid-72368.html" target="_blank"><img src="http://uc.9ria.com/images/noavatar_middle.gif" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-72368.html" target="_blank" class="xw1">winthropchang</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283174" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 5"><img src="static/image/common/star_level1.gif" alt="Rank: 5"></p>
+
+            <div id="g_up2283174_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：初级教头, 积分 <span style="color:#F00;">2680</span> , 距离下一级还需 1320 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>0 点</dd><dt>义气</dt><dd>5 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=72368" id="a_poke_li_2283174" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_72368&amp;touid=72368&amp;pmid=0&amp;daterange=2&amp;pid=2283174&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=72368" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=winthropchang" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283174&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283174" onclick="setCopy(this.href, '帖子地址复制成功');return false;">板凳</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283174" src="static/image/common/online_member.gif">
+<em id="authorposton2283174">发表于 2014-7-29 00:17:39</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283174">
+但是目前Flash工作少确实不争的事实<br>
+Unity和2dx的工作满街跑啊</td></tr></tbody></table>
+</div>
+<div id="comment_2283174" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283174"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283174&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283174&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283174', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283174', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283174&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283174_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283174:403800" id="a_namepost_2283174" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283174')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283188"><table id="pid2283188" summary="pid2283188" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283188" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283188_ma"></div>
+                    <p align="center">UID：336868</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-336868.html" target="_blank" class="xi2">niauwu</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>2069 小时</dd><dt>银子</dt><dd>5006 两</dd><dt>注册时间</dt><dd>2013-5-17</dd><dt>积分</dt><dd>30104</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=336868&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">111</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=336868&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">1831</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=336868&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">2</a></dd><dt>精华</dt><dd>8</dd><dt>金子</dt><dd>602 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=336868&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-336868.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=336868&amp;handlekey=addfriendhk_336868" id="a_friend_li_2283188" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283188')"><a href="space-uid-336868.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/33/68/68_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-336868.html" target="_blank" class="xw1" style="color:#F60;">niauwu</a>
+
+</span>&nbsp;<a href="home.php?mod=spacecp&amp;ac=usergroup&amp;gid=17" target="_blank"><img src="/x2img/riaadmin4.jpg" height="18"></a></em></p>
+</div>
+<p id="g_up2283188" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 13"><img src="static/image/common/star_level2.gif" alt="Rank: 13"><img src="static/image/common/star_level2.gif" alt="Rank: 13"><img src="static/image/common/star_level1.gif" alt="Rank: 13"></p>
+
+            <div id="g_up2283188_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：初级护法, 积分 <span style="color:#F00;">30104</span> , 距离下一级还需 3896 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>127 点</dd><dt>义气</dt><dd>140 点</dd></dl><p class="md_ctrl">
+<a href="home.php?mod=medal">
+                                                                    <img id="md_2283188_18" src="static/image/common/medal_aq_1.png" alt="AQ小生" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_18_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283188_19" src="static/image/common/medal_aq_2.png" alt="AQ大侠" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_19_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283188_17" src="static/image/common/yilinjun.png" alt="译林军" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_17_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283188_21" src="static/image/common/yilinjun1.png" alt="译林军一元译士" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_21_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283188_22" src="static/image/common/yilinjun2.png" alt="译林军两仪译士" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_22_menu', 'pos':'12!'});">
+                        </a>
+</p>
+<ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=336868" id="a_poke_li_2283188" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_336868&amp;touid=336868&amp;pmid=0&amp;daterange=2&amp;pid=2283188&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=336868" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=niauwu" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283188&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283188" onclick="setCopy(this.href, '帖子地址复制成功');return false;">马扎</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283188" src="static/image/common/online_member.gif">
+<em id="authorposton2283188">发表于 2014-7-29 03:24:35</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283188">
+感谢分享教程，感谢译林军。ps:你忘了写翻译词数</td></tr></tbody></table>
+</div>
+<div id="comment_2283188" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283188"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283188&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283188&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283188', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283188', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283188&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283188_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283188:403800" id="a_namepost_2283188" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283188')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283274"><table id="pid2283274" summary="pid2283274" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283274" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283274_ma"></div>
+                    <p align="center">UID：241555</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-241555.html" target="_blank" class="xi2">夏叶夕拾</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>894 小时</dd><dt>银子</dt><dd>6353 两</dd><dt>注册时间</dt><dd>2012-4-21</dd><dt>积分</dt><dd>36139</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=241555&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">118</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=241555&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">3787</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=241555&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">4</a></dd><dt>精华</dt><dd>10</dd><dt>金子</dt><dd>156 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=241555&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-241555.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=241555&amp;handlekey=addfriendhk_241555" id="a_friend_li_2283274" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283274')"><a href="space-uid-241555.html" target="_blank"><img src="http://uc.9ria.com/images/noavatar_middle.gif" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-241555.html" target="_blank" class="xw1">夏叶夕拾</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283274" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 14"><img src="static/image/common/star_level2.gif" alt="Rank: 14"><img src="static/image/common/star_level2.gif" alt="Rank: 14"><img src="static/image/common/star_level1.gif" alt="Rank: 14"><img src="static/image/common/star_level1.gif" alt="Rank: 14"></p>
+
+            <div id="g_up2283274_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：次级护法, 积分 <span style="color:#F00;">36139</span> , 距离下一级还需 5861 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>178 点</dd><dt>义气</dt><dd>115 点</dd></dl><p class="md_ctrl">
+<a href="home.php?mod=medal">
+                                                                    <img id="md_2283274_11" src="static/image/common/medal2010_6.png" alt="赤子之心勋章" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_11_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_25" src="static/image/common/yilinjun5.png" alt="译林军五行译士" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_25_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_47" src="static/image/common/superman.png" alt="翻译小超人" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_47_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_19" src="static/image/common/medal_aq_2.png" alt="AQ大侠" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_19_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_17" src="static/image/common/yilinjun.png" alt="译林军" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_17_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_21" src="static/image/common/yilinjun1.png" alt="译林军一元译士" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_21_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_23" src="static/image/common/yilinjun3.png" alt="译林军三才译士" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_23_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283274_95" src="static/image/common/cdc_brilliant_smail.jpg" alt="CDC广州-灿烂笑脸" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_95_menu', 'pos':'12!'});">
+                        </a>
+</p>
+<ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=241555" id="a_poke_li_2283274" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_241555&amp;touid=241555&amp;pmid=0&amp;daterange=2&amp;pid=2283274&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=241555" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=%E5%A4%8F%E5%8F%B6%E5%A4%95%E6%8B%BE" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283274&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283274" onclick="setCopy(this.href, '帖子地址复制成功');return false;">地板</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283274" src="static/image/common/online_member.gif">
+<em id="authorposton2283274">发表于 2014-7-29 09:18:22</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283274">
+<img src="static/image/smiley/dadatu/09194940-2-3S26.jpg" smilieid="335" border="0" alt=""><img src="static/image/smiley/dadatu/09194940-2-3S26.jpg" smilieid="335" border="0" alt=""><img src="static/image/smiley/dadatu/09194940-2-3S26.jpg" smilieid="335" border="0" alt=""></td></tr></tbody></table>
+</div>
+<div id="comment_2283274" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283274"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283274&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283274&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283274', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283274', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283274&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283274_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283274:403800" id="a_namepost_2283274" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283274')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283282"><table id="pid2283282" summary="pid2283282" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283282" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283282_ma"></div>
+                    <p align="center">UID：55737</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-55737.html" target="_blank" class="xi2">flashcode</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>615 小时</dd><dt>银子</dt><dd>224 两</dd><dt>注册时间</dt><dd>2009-12-10</dd><dt>积分</dt><dd>16518</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=55737&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">24</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=55737&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">631</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=55737&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>153 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=55737&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-55737.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=55737&amp;handlekey=addfriendhk_55737" id="a_friend_li_2283282" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283282')"><a href="space-uid-55737.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/05/57/37_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-55737.html" target="_blank" class="xw1">flashcode</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283282" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 10"><img src="static/image/common/star_level2.gif" alt="Rank: 10"><img src="static/image/common/star_level1.gif" alt="Rank: 10"><img src="static/image/common/star_level1.gif" alt="Rank: 10"></p>
+
+            <div id="g_up2283282_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：次级主事, 积分 <span style="color:#F00;">16518</span> , 距离下一级还需 1482 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>8 点</dd><dt>义气</dt><dd>25 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=55737" id="a_poke_li_2283282" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_55737&amp;touid=55737&amp;pmid=0&amp;daterange=2&amp;pid=2283282&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=55737" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=flashcode" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283282&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283282" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>6</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283282" src="static/image/common/online_member.gif">
+<em id="authorposton2283282">发表于 2014-7-29 09:23:50</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283282">
+这种逗逼文章和作者，以为写了几年as，就可以对其指手画脚，无语呀，如果他是一个公司的领导那就悲剧，一个策略的选择，不是看几个行业分析和数据报告，就可以作出，但现在，很多人，不顾as的表现，对比时，也一味避重就轻，或者拿全世界语言都会有问题，硬说，flash，或者说，它更严重。。。。。。本来开发者规避的东西 ，硬说，这个工具不完美，哪有完美的。说白，看完这个文章 ，只能说这个作者很逗，用流行趋势来决定问题解决的行策略性选择。</td></tr></tbody></table>
+</div>
+<div id="comment_2283282" class="cm">
+<h3 class="psth xs1">点评</h3>
+<div class="pstl xs1">
+<div class="psta"><a href="space-uid-46662.html" c="1" mid="JNRtpIhfXOXINEWXYKIYOLWYaWQEZWDF"><img src="http://uc.9ria.com/data/avatar/000/04/66/62_avatar_small.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a></div>
+<div class="psti">
+<a href="space-uid-46662.html" class="xi2 xw1">civet</a>
+&nbsp;虽然FlashDeadly也不应该这样做决策，这种分析没意义，难道看趋势就预测到未来？Unity只能算游戏引擎，可Flash不单只能做游戏&nbsp;
+<span class="xg1">
+发表于 <span title="2014-8-1 15:51:02">7&nbsp;天前</span></span>
+</div>
+</div>
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283282"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283282&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283282&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283282', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283282', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283282&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283282_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283282:403800" id="a_namepost_2283282" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283282')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283299"><table id="pid2283299" summary="pid2283299" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283299" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283299_ma"></div>
+                    <p align="center">UID：362031</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-362031.html" target="_blank" class="xi2">viceversa0204</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>166 小时</dd><dt>银子</dt><dd>298 两</dd><dt>注册时间</dt><dd>2013-9-21</dd><dt>积分</dt><dd>6600</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=362031&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">66</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=362031&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">288</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=362031&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>47 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=362031&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-362031.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=362031&amp;handlekey=addfriendhk_362031" id="a_friend_li_2283299" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283299')"><a href="space-uid-362031.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/36/20/31_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-362031.html" target="_blank" class="xw1">viceversa0204</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283299" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"></p>
+
+            <div id="g_up2283299_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：中级教头, 积分 <span style="color:#F00;">6600</span> , 距离下一级还需 1400 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>3 点</dd><dt>义气</dt><dd>35 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=362031" id="a_poke_li_2283299" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_362031&amp;touid=362031&amp;pmid=0&amp;daterange=2&amp;pid=2283299&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=362031" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=viceversa0204" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283299&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283299" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>7</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283299" src="static/image/common/online_member.gif">
+<em id="authorposton2283299">发表于 2014-7-29 09:35:43</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283299">
+2010~2013这三年是as黑暗期(jobs一句话影响深远)<br>
+人总是人云亦云，别人说这个不好，就一堆人不用<br>
+更别说一堆老板不懂技术<br>
+没有实际深入去了解，这个好不好适不适合你，只会盲从<br>
+<br>
+黑暗期flash还是有很大的进步像是stage3D gpu渲染,多线程<br>
+今年as有慢慢起来，有一部分是html兼容也有很大的问题， 所以部分的人又转投入as怀抱, 另一部分人则转到unity，java，objectiveC，swift<br>
+<br>
+好产品是不会被埋没的</td></tr></tbody></table>
+</div>
+<div id="comment_2283299" class="cm">
+<h3 class="psth xs1">点评</h3>
+<div class="pstl xs1">
+<div class="psta"><a href="space-uid-2822.html" c="1" mid="FRpbthgXXOXINEWXYKIYOLWYaWQEZWbH"><img src="http://uc.9ria.com/data/avatar/000/00/28/22_avatar_small.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a></div>
+<div class="psti">
+<a href="space-uid-2822.html" class="xi2 xw1">afvbmp</a>
+&nbsp;2010-2013恰好是as3程序员价码最高的时期&nbsp;
+<span class="xg1">
+发表于 2014-7-29 16:16:36</span>
+</div>
+</div>
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283299"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283299&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283299&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283299', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283299', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283299&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283299_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283299:403800" id="a_namepost_2283299" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283299')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283317"><table id="pid2283317" summary="pid2283317" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283317" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283317_ma"></div>
+                    <p align="center">UID：316930</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-316930.html" target="_blank" class="xi2">rxjh68</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-7</dd><dt>在线时间</dt><dd>53 小时</dd><dt>银子</dt><dd>307 两</dd><dt>注册时间</dt><dd>2013-2-22</dd><dt>积分</dt><dd>4110</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=316930&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">1</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=316930&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">145</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=316930&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>32 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=316930&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-316930.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=316930&amp;handlekey=addfriendhk_316930" id="a_friend_li_2283317" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283317')"><a href="space-uid-316930.html" target="_blank"><img src="http://uc.9ria.com/images/noavatar_middle.gif" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-316930.html" target="_blank" class="xw1">rxjh68</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283317" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 6"><img src="static/image/common/star_level1.gif" alt="Rank: 6"><img src="static/image/common/star_level1.gif" alt="Rank: 6"></p>
+
+            <div id="g_up2283317_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：次级教头, 积分 <span style="color:#F00;">4110</span> , 距离下一级还需 1890 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>0 点</dd><dt>义气</dt><dd>5 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=316930" id="a_poke_li_2283317" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_316930&amp;touid=316930&amp;pmid=0&amp;daterange=2&amp;pid=2283317&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=316930" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=rxjh68" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283317&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283317" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>8</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283317" src="static/image/common/online_member.gif">
+<em id="authorposton2283317">发表于 2014-7-29 09:46:02</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283317">
+Flash的开发者要努力开放思想，开发新的应用领域，确实是事实，但也不必厚此薄彼，总之，还是感谢分享。</td></tr></tbody></table>
+</div>
+<div id="comment_2283317" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283317"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283317&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283317&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283317', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283317', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283317&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283317_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283317:403800" id="a_namepost_2283317" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283317')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283320"><table id="pid2283320" summary="pid2283320" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283320" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283320_ma"></div>
+                    <p align="center">UID：31911</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-31911.html" target="_blank" class="xi2">hellogavin</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>178 小时</dd><dt>银子</dt><dd>487 两</dd><dt>注册时间</dt><dd>2009-4-17</dd><dt>积分</dt><dd>6231</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">10</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">100</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">6</a></dd><dt>精华</dt><dd>2</dd><dt>金子</dt><dd>91 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=31911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-31911.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=31911&amp;handlekey=addfriendhk_31911" id="a_friend_li_2283320" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283320')"><a href="space-uid-31911.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/03/19/11_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-31911.html" target="_blank" class="xw1" style="color:#F60;">hellogavin</a>
+
+</span>&nbsp;<a href="home.php?mod=spacecp&amp;ac=usergroup&amp;gid=17" target="_blank"><img src="/x2img/riaadmin4.jpg" height="18"></a></em></p>
+</div>
+<p id="g_up2283320" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"></p>
+
+            <div id="g_up2283320_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：中级教头, 积分 <span style="color:#F00;">6231</span> , 距离下一级还需 1769 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>33 点</dd><dt>义气</dt><dd>5 点</dd></dl><p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=31911" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=hellogavin" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283320&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283320" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>9</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283320" src="static/image/common/online_member.gif">
+<em id="authorposton2283320">发表于 2014-7-29 09:50:59</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283320">
+<div class="quote"><blockquote><font size="2"><font color="#999999">niauwu 发表于 2014-7-29 03:24</font> <a href="http://bbs.9ria.com/forum.php?mod=redirect&amp;goto=findpost&amp;pid=2283188&amp;ptid=403800" target="_blank"><img src="static/image/common/back.gif" onload="thumbImg(this)" alt="" width="13" height="13"></a></font><br>
+感谢分享教程，感谢译林军。ps:你忘了写翻译词数</blockquote></div><br>
+写好了，ok了</td></tr></tbody></table>
+</div>
+<div id="comment_2283320" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283320"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283320&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+<a class="editp" href="forum.php?mod=post&amp;action=edit&amp;fid=43&amp;tid=403800&amp;pid=2283320&amp;page=1">编辑</a>                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283320', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+</p>
+
+<ul id="mgc_post_2283320_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=repent&amp;idtype=pid&amp;id=2283320:403800" id="a_repent_2283320" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/bump.small.gif">悔悟卡</a></li>
+<li><a href="home.php?mod=magic&amp;mid=anonymouspost&amp;idtype=pid&amp;id=2283320:403800" id="a_anonymouspost_2283320" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/anonymouspost.small.gif">匿名卡</a></li><li>
+</li><li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283320:403800" id="a_namepost_2283320" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283320')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283323"><table id="pid2283323" summary="pid2283323" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283323" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283323_ma"></div>
+                    <p align="center">UID：31911</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-31911.html" target="_blank" class="xi2">hellogavin</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>178 小时</dd><dt>银子</dt><dd>487 两</dd><dt>注册时间</dt><dd>2009-4-17</dd><dt>积分</dt><dd>6231</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">10</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">100</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=31911&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">6</a></dd><dt>精华</dt><dd>2</dd><dt>金子</dt><dd>91 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=31911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-31911.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=31911&amp;handlekey=addfriendhk_31911" id="a_friend_li_2283323" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283323')"><a href="space-uid-31911.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/03/19/11_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-31911.html" target="_blank" class="xw1" style="color:#F60;">hellogavin</a>
+
+</span>&nbsp;<a href="home.php?mod=spacecp&amp;ac=usergroup&amp;gid=17" target="_blank"><img src="/x2img/riaadmin4.jpg" height="18"></a></em></p>
+</div>
+<p id="g_up2283323" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"><img src="static/image/common/star_level1.gif" alt="Rank: 7"></p>
+
+            <div id="g_up2283323_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：中级教头, 积分 <span style="color:#F00;">6231</span> , 距离下一级还需 1769 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>33 点</dd><dt>义气</dt><dd>5 点</dd></dl><p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=31911" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=hellogavin" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283323&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283323" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>10</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283323" src="static/image/common/online_member.gif">
+<em id="authorposton2283323">发表于 2014-7-29 09:51:32</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283323">
+<div class="quote"><blockquote><font size="2"><font color="#999999">rxjh68 发表于 2014-7-29 09:46</font> <a href="http://bbs.9ria.com/forum.php?mod=redirect&amp;goto=findpost&amp;pid=2283317&amp;ptid=403800" target="_blank"><img src="static/image/common/back.gif" onload="thumbImg(this)" alt="" width="13" height="13"></a></font><br>
+Flash的开发者要努力开放思想，开发新的应用领域，确实是事实，但也不必厚此薄彼，总之，还是感谢分享。 ...</blockquote></div><br>
+其实有些东西大家应该正视，不要一味回避</td></tr></tbody></table>
+</div>
+<div id="comment_2283323" class="cm">
+<h3 class="psth xs1">点评</h3>
+<div class="pstl xs1">
+<div class="psta"><a href="space-uid-46662.html" c="1" mid="JNRtpIhfXOXINEWXYKIYOLWYaWQEZWDF"><img src="http://uc.9ria.com/data/avatar/000/04/66/62_avatar_small.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a></div>
+<div class="psti">
+<a href="space-uid-46662.html" class="xi2 xw1">civet</a>
+&nbsp;+1 楼主有意擅自在标题加多了 “抛弃”，原文作者的用的词也只是switch，被你这么一注，简直诋毁&nbsp;
+<span class="xg1">
+发表于 <span title="2014-8-1 15:34:54">7&nbsp;天前</span></span>
+</div>
+</div>
+<div class="pstl xs1">
+<div class="psta"><a href="space-uid-55737.html" c="1" mid="IQMtpIhfXOXINEWXYKIYOLWYaWQEZWEE"><img src="http://uc.9ria.com/data/avatar/000/05/57/37_avatar_small.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a></div>
+<div class="psti">
+<a href="space-uid-55737.html" class="xi2 xw1">flashcode</a>
+&nbsp;是要正视，但不是要这种抵毁，他爱转，就转哪去，搞得好像c#就高大上似，我去&nbsp;
+<span class="xg1">
+发表于 2014-7-29 10:09:47</span>
+</div>
+</div>
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283323"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283323&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+<a class="editp" href="forum.php?mod=post&amp;action=edit&amp;fid=43&amp;tid=403800&amp;pid=2283323&amp;page=1">编辑</a>                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283323', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+</p>
+
+<ul id="mgc_post_2283323_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=repent&amp;idtype=pid&amp;id=2283323:403800" id="a_repent_2283323" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/bump.small.gif">悔悟卡</a></li>
+<li><a href="home.php?mod=magic&amp;mid=anonymouspost&amp;idtype=pid&amp;id=2283323:403800" id="a_anonymouspost_2283323" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/anonymouspost.small.gif">匿名卡</a></li><li>
+</li><li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283323:403800" id="a_namepost_2283323" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283323')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283325"><table id="pid2283325" summary="pid2283325" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283325" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283325_ma"></div>
+                    <p align="center">UID：72396</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-72396.html" target="_blank" class="xi2">鸩羽千夜</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>1958 小时</dd><dt>银子</dt><dd>4153 两</dd><dt>注册时间</dt><dd>2010-4-25</dd><dt>积分</dt><dd>20299</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=72396&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">45</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=72396&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">1361</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=72396&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">9</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>126 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=72396&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-72396.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=72396&amp;handlekey=addfriendhk_72396" id="a_friend_li_2283325" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283325')"><a href="space-uid-72396.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/07/23/96_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-72396.html" target="_blank" class="xw1">鸩羽千夜</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283325" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 11"><img src="static/image/common/star_level2.gif" alt="Rank: 11"><img src="static/image/common/star_level1.gif" alt="Rank: 11"><img src="static/image/common/star_level1.gif" alt="Rank: 11"><img src="static/image/common/star_level1.gif" alt="Rank: 11"></p>
+
+            <div id="g_up2283325_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：中级主事, 积分 <span style="color:#F00;">20299</span> , 距离下一级还需 1701 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>9 点</dd><dt>义气</dt><dd>12 点</dd></dl><p class="md_ctrl">
+<a href="home.php?mod=medal">
+                                                                    <img id="md_2283325_19" src="static/image/common/medal_aq_2.png" alt="AQ大侠" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_19_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283325_17" src="static/image/common/yilinjun.png" alt="译林军" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_17_menu', 'pos':'12!'});">
+                        </a>
+</p>
+<ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=72396" id="a_poke_li_2283325" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_72396&amp;touid=72396&amp;pmid=0&amp;daterange=2&amp;pid=2283325&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=72396" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=%E9%B8%A9%E7%BE%BD%E5%8D%83%E5%A4%9C" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283325&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283325" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>11</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283325" src="static/image/common/online_member.gif">
+<em id="authorposton2283325">发表于 2014-7-29 09:52:43</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283325">
+从上学时开始我就很排斥C#，不是因为它不好，纯粹是个人情绪，你说转到别的我也就忍了，转C#你这标题就快让我炸了</td></tr></tbody></table>
+</div>
+<div id="comment_2283325" class="cm">
+<h3 class="psth xs1">点评</h3>
+<div class="pstl xs1">
+<div class="psta"><a href="space-uid-196274.html" c="1" mid="JRMPvkIefOXINEWXYKIYOLWYaWQEZWaI"><img src="http://uc.9ria.com/data/avatar/000/19/62/74_avatar_small.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a></div>
+<div class="psti">
+<a href="space-uid-196274.html" class="xi2 xw1">__伯恩</a>
+&nbsp;为何有抵抗情绪...&nbsp;
+<span class="xg1">
+发表于 <span title="2014-8-2 21:23:23">6&nbsp;天前</span></span>
+</div>
+</div>
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283325"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283325&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283325&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283325', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283325', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283325&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283325_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283325:403800" id="a_namepost_2283325" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283325')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283334"><table id="pid2283334" summary="pid2283334" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283334" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283334_ma"></div>
+                    <p align="center">UID：316930</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-316930.html" target="_blank" class="xi2">rxjh68</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-7</dd><dt>在线时间</dt><dd>53 小时</dd><dt>银子</dt><dd>307 两</dd><dt>注册时间</dt><dd>2013-2-22</dd><dt>积分</dt><dd>4110</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=316930&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">1</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=316930&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">145</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=316930&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>32 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=316930&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-316930.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=316930&amp;handlekey=addfriendhk_316930" id="a_friend_li_2283334" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283334')"><a href="space-uid-316930.html" target="_blank"><img src="http://uc.9ria.com/images/noavatar_middle.gif" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-316930.html" target="_blank" class="xw1">rxjh68</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283334" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 6"><img src="static/image/common/star_level1.gif" alt="Rank: 6"><img src="static/image/common/star_level1.gif" alt="Rank: 6"></p>
+
+            <div id="g_up2283334_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：次级教头, 积分 <span style="color:#F00;">4110</span> , 距离下一级还需 1890 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>0 点</dd><dt>义气</dt><dd>5 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=316930" id="a_poke_li_2283334" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_316930&amp;touid=316930&amp;pmid=0&amp;daterange=2&amp;pid=2283334&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=316930" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=rxjh68" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283334&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283334" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>12</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283334" src="static/image/common/online_member.gif">
+<em id="authorposton2283334">发表于 2014-7-29 09:57:14</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283334">
+事实是，我20年前用的 Borland C 现在还有人在用，用好东西，最主要的是看的是功力，而flash 的开发性，对大众人群的程序员提高功力很有好处，只要自己努力，生态环境比C#要好的多。</td></tr></tbody></table>
+</div>
+<div id="comment_2283334" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283334"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283334&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283334&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283334', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283334', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283334&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283334_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283334:403800" id="a_namepost_2283334" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283334')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283476"><table id="pid2283476" summary="pid2283476" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283476" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283476_ma"></div>
+                    <p align="center">UID：99296</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-99296.html" target="_blank" class="xi2">happymiao111</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-7</dd><dt>在线时间</dt><dd>533 小时</dd><dt>银子</dt><dd>1362 两</dd><dt>注册时间</dt><dd>2010-10-19</dd><dt>积分</dt><dd>10986</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=99296&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">7</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=99296&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">277</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=99296&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>85 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=99296&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-99296.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=99296&amp;handlekey=addfriendhk_99296" id="a_friend_li_2283476" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283476')"><a href="space-uid-99296.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/09/92/96_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-99296.html" target="_blank" class="xw1">happymiao111</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283476" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 9"><img src="static/image/common/star_level2.gif" alt="Rank: 9"><img src="static/image/common/star_level1.gif" alt="Rank: 9"></p>
+
+            <div id="g_up2283476_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：初级主事, 积分 <span style="color:#F00;">10986</span> , 距离下一级还需 3014 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>1 点</dd><dt>义气</dt><dd>5 点</dd></dl><ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=99296" id="a_poke_li_2283476" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_99296&amp;touid=99296&amp;pmid=0&amp;daterange=2&amp;pid=2283476&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=99296" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=happymiao111" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283476&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283476" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>13</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283476" src="static/image/common/online_member.gif">
+<em id="authorposton2283476">发表于 2014-7-29 11:48:57</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283476">
+码农何苦为难码农.<img src="static/image/smiley/loli/08101525-2-3C619.jpg" smilieid="312" border="0" alt=""></td></tr></tbody></table>
+</div>
+<div id="comment_2283476" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283476"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283476&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283476&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283476', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283476', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283476&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283476_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283476:403800" id="a_namepost_2283476" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283476')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283513"><table id="pid2283513" summary="pid2283513" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283513" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283513_ma"></div>
+                    <p align="center">UID：12418</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-12418.html" target="_blank" class="xi2">liwei981</a></strong>
+<em>当前离线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-7</dd><dt>在线时间</dt><dd>182 小时</dd><dt>银子</dt><dd>475 两</dd><dt>注册时间</dt><dd>2008-8-12</dd><dt>积分</dt><dd>4907</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=12418&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">24</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=12418&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">160</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=12418&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>46 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=12418&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-12418.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=12418&amp;handlekey=addfriendhk_12418" id="a_friend_li_2283513" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283513')"><a href="space-uid-12418.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/01/24/18_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-12418.html" target="_blank" class="xw1">liwei981</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283513" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level2.gif" alt="Rank: 6"><img src="static/image/common/star_level1.gif" alt="Rank: 6"><img src="static/image/common/star_level1.gif" alt="Rank: 6"></p>
+
+            <div id="g_up2283513_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：次级教头, 积分 <span style="color:#F00;">4907</span> , 距离下一级还需 1093 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>9 点</dd><dt>义气</dt><dd>60 点</dd></dl><p class="md_ctrl">
+<a href="home.php?mod=medal">
+                                                                    <img id="md_2283513_17" src="static/image/common/yilinjun.png" alt="译林军" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_17_menu', 'pos':'12!'});">
+                        </a>
+</p>
+<ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=12418" id="a_poke_li_2283513" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_12418&amp;touid=12418&amp;pmid=0&amp;daterange=2&amp;pid=2283513&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=12418" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=liwei981" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283513&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283513" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>14</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283513" src="static/image/common/online_member.gif">
+<em id="authorposton2283513">发表于 2014-7-29 12:52:45</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283513">
+ADOBE的管理层是群傻逼，这样臭名声的事情也做，目前ADOBE在FLASH上的人员投入已经差不多撤完了。</td></tr></tbody></table>
+</div>
+<div id="comment_2283513" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<div id="post_rate_div_2283513"></div>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283513&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283513&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283513', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283513', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283513&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283513_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283513:403800" id="a_namepost_2283513" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283513')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div><div id="post_2283591"><table id="pid2283591" summary="pid2283591" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls norightborder" rowspan="2">
+ <div class="p_pop blk bui" id="userinfo2283591" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2283591_ma"></div>
+                    <p align="center">UID：55300</p>
+</div>
+<div class="i y">
+<div>
+<strong><a href="space-uid-55300.html" target="_blank" class="xi2">qqskynet</a></strong>
+<em>当前在线</em>
+</div>
+<dl class="cl"><dt>最后登录</dt><dd>2014-8-8</dd><dt>在线时间</dt><dd>2422 小时</dd><dt>银子</dt><dd>11736 两</dd><dt>注册时间</dt><dd>2009-12-6</dd><dt>积分</dt><dd>82050</dd><dt>主题</dt><dd><a href="home.php?mod=space&amp;uid=55300&amp;do=thread&amp;type=thread&amp;view=me&amp;from=space" target="_blank" class="xi2">121</a></dd><dt>帖子</dt><dd><a href="home.php?mod=space&amp;uid=55300&amp;do=thread&amp;type=reply&amp;view=me&amp;from=space" target="_blank" class="xi2">9341</a></dd><dt>分享</dt><dd><a href="home.php?mod=space&amp;uid=55300&amp;do=share&amp;view=me&amp;from=space" target="_blank" class="xi2">0</a></dd><dt>精华</dt><dd>0</dd><dt>金子</dt><dd>497 两</dd></dl>
+<div class="imicn">
+<a href="home.php?mod=space&amp;uid=55300&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="资料">资料</a>
+    <a href="space-uid-55300.html" target="_blank" title="串个门"><img src="/static/image/common/home.gif">串个门</a>
+    <a href="home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=55300&amp;handlekey=addfriendhk_55300" id="a_friend_li_2283591" onclick="showWindow(this.id, this.href, 'get', 1, {'ctrlid':this.id,'pos':'00'});" title="加好友"><img src="/static/image/feed/friend.gif">加好友</a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2283591')"><a href="space-uid-55300.html" target="_blank"><img src="http://uc.9ria.com/data/avatar/000/05/53/00_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></a></div>
+<p><em><span class="authi"><a href="space-uid-55300.html" target="_blank" class="xw1">qqskynet</a>
+
+</span></em></p>
+</div>
+<p id="g_up2283591" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level3.gif" alt="Rank: 19"><img src="static/image/common/star_level1.gif" alt="Rank: 19"><img src="static/image/common/star_level1.gif" alt="Rank: 19"><img src="static/image/common/star_level1.gif" alt="Rank: 19"></p>
+
+            <div id="g_up2283591_menu" class="tip tip_4" style="display: none;">
+                <div class="tip_horn"></div>
+                                                                <div class="tip_c">用户等级：中级香主, 积分 <span style="color:#F00;">82050</span> , 距离下一级还需 11950 积分</div>
+            </div>
+
+<dl class="pil cl"><dt>威望</dt><dd>30 点</dd><dt>义气</dt><dd>130 点</dd></dl><p class="md_ctrl">
+<a href="home.php?mod=medal">
+                                                                    <img id="md_2283591_18" src="static/image/common/medal_aq_1.png" alt="AQ小生" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_18_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283591_46" src="static/image/common/aqdashen.png" alt="AQ大神" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_46_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283591_19" src="static/image/common/medal_aq_2.png" alt="AQ大侠" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_19_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283591_44" src="static/image/common/aqxiaoxian.png" alt="AQ小仙" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_44_menu', 'pos':'12!'});">
+                                                                        <img id="md_2283591_8" src="static/image/common/medal2010_5.png" alt="蓝色海洋水心勋章" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_8_menu', 'pos':'12!'});">
+                        </a>
+</p>
+<ul class="xl xl2 o cl">
+<li class="poke2"><a href="home.php?mod=spacecp&amp;ac=poke&amp;op=send&amp;uid=55300" id="a_poke_li_2283591" onclick="showWindow(this.id, this.href, 'get', 0);" title="打招呼" class="xi2">打招呼</a></li>
+<li class="pm2"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_55300&amp;touid=55300&amp;pmid=0&amp;daterange=2&amp;pid=2283591&amp;tid=403800" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+<p>
+<a href="forum.php?mod=modcp&amp;action=member&amp;op=ban&amp;uid=55300" target="_blank">禁止</a>&nbsp;
+<a href="forum.php?mod=modcp&amp;action=thread&amp;op=post&amp;do=search&amp;searchsubmit=1&amp;users=qqskynet" target="_blank">帖子</a>
+</p>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="forum.php?mod=redirect&amp;goto=findpost&amp;ptid=403800&amp;pid=2283591&amp;fromuid=31911" title="您的朋友访问此链接后，您将获得相应的积分奖励" id="postnum2283591" onclick="setCopy(this.href, '帖子地址复制成功');return false;"><em>15</em>楼</a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2283591" src="static/image/common/online_member.gif">
+<em id="authorposton2283591">发表于 2014-7-29 14:20:17</em>
+                    	</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tbody><tr><td class="t_f" id="postmessage_2283591">
+
+嘛，其实我也是非常喜欢C#的，无论是语法约定还是面向对象支持上，都算是最完美的一门语言，只是用来做做网页的话，太浪费了嘛~~<br>
+<br>
+<strong>PS：Flash没快那么死的。其实事实是，Flash在国外死不死，跟天朝确实没多大关系，HTML5会不会占领全世界，也跟天朝没多大关系，因为就算别的国度Flash完全不存在了，天朝仍然会满大街页游持续很长一段时间的，Flash的工作也还会持续很长一段时间的，估计在我50岁的时候，还有一大把招AS3程序员的公司。就算Flash的工作机会真没有了，谁说我们就会在某些人的幸灾乐祸和嘲笑中饿死呢。AS3只是一门语言而已，能学会AS3，就也能学会Java，还能学会C#。会做Flash上的Web应用程序和游戏，就也能做Android、IOS、PC上的应用程序和游戏。</strong></td></tr></tbody></table>
+</div>
+<div id="comment_2283591" class="cm">
+</div>
+
+<div style="clear:both"></div>
+
+<dl id="ratelog_2283591" class="rate">
+<dd style="margin:0">
+<div id="post_rate_2283591"></div>
+
+<script>
+function riatoggleRatelogCollapse(tarId, ctrlObj) {
+if(document.getElementById(tarId).style.display == '') {
+document.getElementById(tarId).style.display = 'none';
+document.getElementById(tarId+'_table').style.display = 'none';
+document.getElementById(tarId+'_collapse').style.width = 'auto';
+document.getElementById(tarId+'_collapse').style.background = 'none';
+document.getElementById(tarId+'_btn').style.background = 'none';
+setcookie('ratecollapse', 1, 2592000);
+ctrlObj.innerHTML = '展开';
+document.getElementById(tarId+'_num').style.display = 'none';
+} else {
+document.getElementById(tarId).style.display = '';
+document.getElementById(tarId+'_table').style.display = '';
+document.getElementById(tarId+'_collapse').style.width = '85px';
+document.getElementById(tarId+'_collapse').style.background = 'url(/x2img/ratecollapse.png) no-repeat';
+document.getElementById(tarId+'_btn').style.background = 'url("../../static/image/common/arrow_top.gif") no-repeat scroll 100% 50% transparent';
+setcookie('ratecollapse', 0, -2592000);
+ctrlObj.innerHTML = '收起';
+riaratemore(tarId, 1);
+}
+}
+function riaratemore(tarId, type) {
+var tagtr = document.getElementById(tarId+'_table').getElementsByTagName('tr');
+var tagtrlen = tagtr.length;
+for (var i=0; i<tagtrlen; i++) {
+if (type==0 && i>4) {
+tagtr[i].style.display = 'none';
+} else {
+tagtr[i].style.display = '';
+}
+}
+if (document.getElementById(tarId+'_btn').innerHTML == '展开') {
+document.getElementById(tarId+'_num').style.display = 'none';
+document.getElementById(tarId+'_collapse').style.width = 'auto';
+document.getElementById(tarId+'_collapse').style.background = 'none';
+document.getElementById(tarId+'_btn').style.background = 'none';
+}
+if (type==1) {
+document.getElementById(tarId+'_num').style.display = 'none';
+}
+}
+</script>
+
+<div class="riaratehead">
+<div class="riaratecollapse" id="riaratelog_2283591_collapse"><a href="javascript:;" onclick="riatoggleRatelogCollapse('riaratelog_2283591', this);" class="y xi2 op" id="riaratelog_2283591_btn">收起</a></div>
+<div class="riaratetitle">本帖评分记录：<a href="forum.php?mod=misc&amp;action=viewratings&amp;tid=403800&amp;pid=2283591" onclick="showWindow('viewratings', this.href)" title="查看全部评分">共<span class="xi1">1</span>人评分</a>&nbsp;&nbsp;&nbsp;            银子<span class="xi1">+5</span>&nbsp;
+        </div>
+<div class="riaratetitle2"></div>
+</div>
+<div style="clear:both;"></div>
+
+<div class="riaratelist" id="riaratelog_2283591" style="">
+                    <table class="ratl" id="riaratelog_2283591_table">
+                                                <tbody><tr id="rate_2283591_3269">
+                            <td width="150">
+                                <a href="space-uid-3269.html" target="_blank"><img src="http://uc.9ria.com/images/noavatar_small.gif" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_small.gif'"></a> <a href="space-uid-3269.html" target="_blank">poshidon</a>
+                            </td>
+                                                        	                                                                    <td class="xi1" width="100">银子 + 5</td>
+                                                                                                                        <td class="xg1">理智的人从不人云亦云</td>
+                        </tr>
+                        </tbody></table>
+                    <table class="riaratebottom">
+                    	<tbody><tr><td><span id="riaratelog_2283591_num"></span></td><td><div class="riaratebtn"><a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283591', 'get', -1);return false;" title="1 人评分"><img src="/x2img/riaratebtn.png" alt="评分" width="95" height="25"></a></div></td></tr>
+                	</tbody></table>
+                </div>
+<script>riaratemore('riaratelog_2283591', 0);</script>
+                
+</dd>
+</dl>
+</div></div>
+
+</td></tr>
+<tr><td class="plc plm">
+        
+                
+        
+        
+</td>
+</tr>
+<tr>
+<td class="pls norightborder"></td>
+<td class="plc">
+<div class="po">
+<div class="pob cl">
+<em>
+<a class="cmmnt" href="forum.php?mod=misc&amp;action=comment&amp;tid=403800&amp;pid=2283591&amp;extra=page%3D1&amp;page=1" onclick="showWindow('comment', this.href, 'get', 0)">点评</a><a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;repquote=2283591&amp;extra=page%3D1&amp;page=1" onclick="showWindow('reply', this.href)">引用</a>
+                    
+                    <span style="display:none">
+                    </span>
+                    
+                    
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&amp;action=rate&amp;tid=403800&amp;pid=2283591', 'get', -1);return false;" class="k_rate">评分</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2283591', 'misc.php?mod=report&amp;rtype=post&amp;rid=2283591&amp;tid=403800&amp;fid=43', 'get', -1);return false;">举报</a>
+</p>
+
+<ul id="mgc_post_2283591_menu" class="p_pop mgcmn" style="display: none;">
+<li><a href="home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=2283591:403800" id="a_namepost_2283591" onclick="showWindow(this.id, this.href)"><img src="static/image/magic/namepost.small.gif">显身卡</a></li><li>
+</li></ul>
+<script type="text/javascript" reload="1">checkmgcmn('post_2283591')</script>
+</div>
+</div>
+
+</td>
+</tr>
+<tr class="ad">
+<td class="pls"></td>
+<td class="plc">
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="postlistreply" class="pl"><div id="post_new" class="viewthread_table" style="display: none"></div></div>
+</div>
+
+
+<form method="post" autocomplete="off" name="modactions" id="modactions">
+<input type="hidden" name="formhash" value="11a22b77">
+<input type="hidden" name="optgroup">
+<input type="hidden" name="operation">
+<input type="hidden" name="listextra" value="page%3D1">
+<input type="hidden" name="page" value="1">
+</form>
+
+
+<div class="pgs mtm mbm cl">
+<div class="pg"><strong>1</strong><a href="thread-403800-2-1.html">2</a><a href="thread-403800-3-1.html">3</a><a href="thread-403800-2-1.html" class="nxt">下一页</a></div><span class="pgb y" id="visitedforumstmp" onmouseover="$('visitedforums').id = 'visitedforumstmp';this.id = 'visitedforums';showMenu({'ctrlid':this.id,'pos':'21'})"><a href="forum.php?mod=forumdisplay&amp;fid=43&amp;page=1">返回列表</a></span>
+<a id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu({'ctrlid':this.id})" onclick="showWindow('newthread', 'forum.php?mod=post&amp;action=newthread&amp;fid=43')" href="javascript:;" title="发新帖"><img src="static/image/common/pn_post.png" alt="发新帖"></a>
+
+<a id="post_replytmp" onclick="showWindow('reply', 'forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800')" href="javascript:;" title="回复"><img src="static/image/common/pn_reply.png" alt="回复"></a>
+
+    </div>
+
+<!--[diy=diyfastposttop]--><div id="diyfastposttop" class="area"></div><!--[/diy]-->
+<script type="text/javascript">
+var postminchars = parseInt('10');
+var postmaxchars = parseInt('200000');
+var disablepostctrl = parseInt('0');
+</script>
+
+<div id="f_pst" class="pl bm bmw">
+<form method="post" autocomplete="off" id="fastpostform" action="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800&amp;extra=page%3D1&amp;replysubmit=yes&amp;infloat=yes&amp;handlekey=fastpost" onsubmit="return fastpostvalidate(this)">
+<table cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="pls">
+<div class="avatar"><img src="http://uc.9ria.com/data/avatar/000/03/19/11_avatar_middle.jpg" onerror="this.onerror=null;this.src='http://uc.9ria.com/images/noavatar_middle.gif'"></div></td>
+<td class="plc">
+
+<span id="fastpostreturn"></span>
+
+
+<div class="cl">
+<div id="fastsmiliesdiv" class="y"><div id="fastsmiliesdiv_data"><div id="fastsmilies" style="display:none;"><table cellspacing="0" cellpadding="0"><tbody><tr></tr><tr><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':)')" id="fastpostsmilie_1_td"><img id="smilie_1" width="20" height="20" src="static/image/smiley/default/smile.gif" alt=":)"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':victory:')" id="fastpostsmilie_14_td"><img id="smilie_14" width="20" height="20" src="static/image/smiley/default/victory.gif" alt=":victory:"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':time:')" id="fastpostsmilie_15_td"><img id="smilie_15" width="20" height="20" src="static/image/smiley/default/time.gif" alt=":time:"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':kiss:')" id="fastpostsmilie_16_td"><img id="smilie_16" width="20" height="20" src="static/image/smiley/default/kiss.gif" alt=":kiss:"></td></tr><tr><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':hug:')" id="fastpostsmilie_13_td"><img id="smilie_13" width="20" height="20" src="static/image/smiley/default/hug.gif" alt=":hug:"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':lol')" id="fastpostsmilie_12_td"><img id="smilie_12" width="20" height="20" src="static/image/smiley/default/lol.gif" alt=":lol"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':(')" id="fastpostsmilie_2_td"><img id="smilie_2" width="20" height="20" src="static/image/smiley/default/sad.gif" alt=":("></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':D')" id="fastpostsmilie_3_td"><img id="smilie_3" width="20" height="20" src="static/image/smiley/default/biggrin.gif" alt=":D"></td></tr><tr><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':\'(')" id="fastpostsmilie_4_td"><img id="smilie_4" width="20" height="20" src="static/image/smiley/default/cry.gif" alt=":'("></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':@')" id="fastpostsmilie_5_td"><img id="smilie_5" width="20" height="20" src="static/image/smiley/default/huffy.gif" alt=":@"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':o')" id="fastpostsmilie_6_td"><img id="smilie_6" width="20" height="20" src="static/image/smiley/default/shocked.gif" alt=":o"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':P')" id="fastpostsmilie_7_td"><img id="smilie_7" width="20" height="20" src="static/image/smiley/default/tongue.gif" alt=":P"></td></tr><tr><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':$')" id="fastpostsmilie_8_td"><img id="smilie_8" width="20" height="20" src="static/image/smiley/default/shy.gif" alt=":$"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ';P')" id="fastpostsmilie_9_td"><img id="smilie_9" width="20" height="20" src="static/image/smiley/default/titter.gif" alt=";P"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':L')" id="fastpostsmilie_10_td"><img id="smilie_10" width="20" height="20" src="static/image/smiley/default/sweat.gif" alt=":L"></td><td onmouseover="smilies_preview('fastpost', 'fastsmiliesdiv', this, 20)" onmouseout="$('smilies_preview').style.display = 'none'" onclick="seditor_insertunit('fastpost', ':Q')" id="fastpostsmilie_11_td"><img id="smilie_11" width="20" height="20" src="static/image/smiley/default/mad.gif" alt=":Q"></td></tr></tbody></table></div></div></div><div class="hasfsl" id="fastposteditor">
+<div class="tedt mtn">
+<div class="bar">
+<span class="y">
+<a href="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=403800" onclick="return switchAdvanceMode(this.href)">高级模式</a>
+</span><script src="static/js/seditor.js?M6u" type="text/javascript"></script>
+<div class="fpd">
+<a href="javascript:;" title="文字加粗" class="fbld" onclick="seditor_insertunit('fastpost', '[b]', '[/b]');doane(event);">B</a>
+<a href="javascript:;" title="设置文字颜色" class="fclr" id="fastpostforecolor" onclick="showColorBox(this.id, 2, 'fastpost');doane(event);">Color</a>
+<a id="fastpostimg" href="javascript:;" title="图片" class="fmg" onclick="seditor_menu('fastpost', 'img');doane(event);">Image</a>
+<a id="fastposturl" href="javascript:;" title="添加链接" class="flnk" onclick="seditor_menu('fastpost', 'url');doane(event);">Link</a>
+<a id="fastpostquote" href="javascript:;" title="引用" class="fqt" onclick="seditor_menu('fastpost', 'quote');doane(event);">Quote</a>
+<a id="fastpostcode" href="javascript:;" title="代码" class="fcd" onclick="seditor_menu('fastpost', 'code');doane(event);">Code</a>
+<a href="javascript:;" class="fsml" id="fastpostsml" onclick="showMenu({'ctrlid':this.id,'evt':'click','layer':2});return false;">Smilies</a>
+<script type="text/javascript" reload="1">smilies_show('fastpostsmiliesdiv', 8, 'fastpost');</script>
+<span class="pipe z">|</span><span onclick="fastUload()" class="cur1 z">添加附件</span></div></div>
+<div class="area">
+<textarea rows="6" cols="80" name="message" id="fastpostmessage" onkeydown="seditor_ctlent(event, 'fastpostvalidate($(\'fastpostform\'))');" tabindex="4" class="pt"></textarea>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var editorid = '';
+var ATTACHNUM = {'imageused':0,'imageunused':0,'attachused':0,'attachunused':0}, ATTACHUNUSEDAID = new Array(), IMGUNUSEDAID = new Array();
+</script>
+
+<input type="hidden" name="posttime" id="posttime" value="1407479279">
+<div class="upfl hasfsl">
+<table cellpadding="0" cellspacing="0" border="0" id="attach_tblheader" style="display: none;">
+<tbody><tr>
+<td>点击附件文件名添加到帖子内容中</td>
+<td class="atds">描述</td>
+<td class="attv">
+阅读权限
+<img src="static/image/common/faq.gif" alt="Tip" class="vm" onmouseover="showTip(this)" tip="阅读权限按由高到低排列，高于或等于选中组的用户才可以阅读">
+</td>
+<td class="attc"></td>
+</tr>
+</tbody></table>
+<div id="attachlist"></div>
+</div>
+
+<input type="hidden" name="formhash" value="11a22b77">
+<input type="hidden" name="subject" value="">
+<p class="ptm pnpost">
+<button type="submit" name="replysubmit" id="fastpostsubmit" class="pn pnc vm" value="replysubmit" tabindex="5"><strong></strong></button>
+<label for="fastpostrefresh"><input id="fastpostrefresh" type="checkbox" class="pc">回帖后跳转到最后一页</label>
+<script type="text/javascript">if(getcookie('fastpostrefresh') == 1) {$('fastpostrefresh').checked=true;}</script>
+</p>
+</td>
+</tr>
+</tbody></table>
+</form>
+</div>
+
+<script type="text/javascript">
+var connect_qzone_share_url = 'http://bbs.9ria.com/home.php?mod=spacecp&ac=plugin&id=qqconnect:spacecp&pluginop=share&sh_type=1&thread_id=403800';
+var connect_weibo_share_url = 'http://bbs.9ria.com/home.php?mod=spacecp&ac=plugin&id=qqconnect:spacecp&pluginop=share&sh_type=2&thread_id=403800';
+var connect_thread_info = {
+thread_url: 'http://bbs.9ria.com/thread-403800-1-1.html',
+thread_id: '403800',
+post_id: '2283104',
+forum_id: '43',
+author_id: '31911',
+author: 'hellogavin'
+};
+
+connect_autoshare = '0';
+connect_isbind = '0';
+if(connect_autoshare == 1 && connect_isbind) {
+_attachEvent(window, 'load', function(){
+connect_share(connect_weibo_share_url, connect_openid);
+});
+}
+</script>
+
+
+<div id="visitedforums_menu" class="p_pop blk cl" style="display: none;">
+<table cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td id="v_forums">
+<h3 class="mbn pbn bbda xg1">浏览过的版块</h3>
+<ul class="xl xl1">
+<li><a href="forum-375-1.html">Flash技术</a></li><li><a href="forum-49-1.html">译林军</a></li><li><a href="forum-42-1.html">问答求助</a></li><li><a href="forum-382-1.html">其他</a></li><li><a href="forum-380-1.html">美术资源</a></li><li><a href="forum-12-1.html">论坛事务</a></li><li><a href="forum-14-1.html">口水天下</a></li><li><a href="forum-60-1.html">活动专区</a></li><li><a href="forum-306-1.html">限免专区</a></li></ul>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="md_18_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>AQ小生</h4>
+<p>解决悬赏题超过≥2</p>
+</div>
+</div>
+<div id="md_19_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>AQ大侠</h4>
+<p>解决悬赏题超过≥10</p>
+</div>
+</div>
+<div id="md_17_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>译林军</h4>
+<p>辛勤的外文资讯翻译者</p>
+</div>
+</div>
+<div id="md_21_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>译林军一元译士</h4>
+<p>翻译文章数≥10</p>
+</div>
+</div>
+<div id="md_22_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>译林军两仪译士</h4>
+<p>翻译文章数≥20</p>
+</div>
+</div>
+<div id="md_11_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>赤子之心勋章</h4>
+<p>热心会员，为天地会发展作出贡献</p>
+</div>
+</div>
+<div id="md_25_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>译林军五行译士</h4>
+<p>翻译文章数≥50</p>
+</div>
+</div>
+<div id="md_47_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>翻译小超人</h4>
+<p>全民翻译活动中的小超人</p>
+</div>
+</div>
+<div id="md_23_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>译林军三才译士</h4>
+<p>翻译文章数≥30</p>
+</div>
+</div>
+<div id="md_95_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>CDC广州-灿烂笑脸</h4>
+<p>CDC广州-灿烂笑脸</p>
+</div>
+</div>
+<div id="md_46_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>AQ大神</h4>
+<p>解决悬赏题超过≥100</p>
+</div>
+</div>
+<div id="md_44_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>AQ小仙</h4>
+<p>解决悬赏题超过≥50</p>
+</div>
+</div>
+<div id="md_8_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>蓝色海洋水心勋章</h4>
+<p>天地会的一代水王</p>
+</div>
+</div>
+<script type="text/javascript">document.onkeyup = function(e){keyPageScroll(e, 0, 1, 'forum.php?mod=viewthread&tid=403800', 1);}</script>
+</div>
+
+<div class="wp mtn">
+<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+
+<input type="hidden" id="riamodthreadtype" value="">
+<input type="hidden" id="riamodthreadvalue" value="0">
+<script>
+function riamodthreads(optgroup, operation, type) {
+if (optgroup==1 && operation=='digest' && type==1) {
+document.getElementById('riamodthreadtype').value = 'digest';
+document.getElementById('riamodthreadvalue').value = '3';
+}
+if (optgroup==1 && operation=='digest' && type==0) {
+document.getElementById('riamodthreadtype').value = 'digest';
+document.getElementById('riamodthreadvalue').value = '0';
+}
+if (optgroup==1 && operation=='stick' && type==1) {
+document.getElementById('riamodthreadtype').value = 'stick';
+document.getElementById('riamodthreadvalue').value = '1';
+}
+if (optgroup==1 && operation=='stick' && type==0) {
+document.getElementById('riamodthreadtype').value = 'stick';
+document.getElementById('riamodthreadvalue').value = '0';
+}
+
+var operation = !operation ? '' : operation;
+$('modactions').action = 'forum.php?mod=topicadmin&action=moderate&fid=' + fid + '&moderate[]=' + tid + '&handlekey=mods&infloat=yes&nopost=yes' + (optgroup != 3 && optgroup != 2 ? '&from=' + tid : '');
+$('modactions').optgroup.value = optgroup;
+$('modactions').operation.value = operation;
+
+hideWindow('mods');
+showWindow('mods', 'modactions', 'post', 0);
+if(BROWSER.ie) {
+doane(event);
+}
+}
+</script>	</div>
